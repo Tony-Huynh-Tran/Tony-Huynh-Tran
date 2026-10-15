@@ -9,20 +9,7 @@
   <img alt="Location: Ho Chi Minh City, Vietnam" src="https://img.shields.io/badge/Based_in-Ho_Chi_Minh_City-3E9E58?style=flat-square&labelColor=163F24">
 </p>
 
-Automation and Control Engineering student at HCMUTE.
-Former test engineering intern at **MACOM Technology Solutions**.
-
-## Experience
-
-**MACOM Technology Solutions** — Test Engineering Intern · 06/2026 – 10/2026 · Ho Chi Minh City
-
-| Project | What I built | Result |
-|---|---|---|
-| **Automated semiconductor test system** | Software for an automated die tester: YOLO-based die localization for probe positioning, motion control in C#, Keithley SMU over GPIB and LCR meter over USB. Designed the v2 controller PCB in EasyEDA. | Probe positioning **2 s → 0.3 s** per die. Testing time **−40 %** per sample. |
-| **IoT bonding station monitoring** | Upgraded an ESP32 IoT system across two facilities. Real-time web dashboard (HTML/CSS/JS), over-the-air firmware updates, v2 controller PCB to replace hand-wired modules. | **180 stations** monitored and controlled remotely. Firmware update in **under 1 minute**. |
-| **Wafer die counting** | Python + OpenCV application that counts dies on a wafer and reads pass/fail status, replacing manual estimation. | **8,000–64,000** dies per wafer, error **< 0.2 %**, **< 2 min** per wafer. |
-
-<sub>Internship code belongs to MACOM and is not published here.</sub>
+I am an Automation and Control Engineering student with experience in test engineering and industrial automation gained through a four-month internship at MACOM Technology Solutions. During my internship, I worked on automated testing systems, embedded control systems, and industrial equipment used in semiconductor manufacturing. I aim to build on this experience to develop practical automation solutions and improve manufacturing efficiency.
 
 ## Projects
 

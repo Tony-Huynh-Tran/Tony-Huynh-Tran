@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Huynh Tran Phuc Hung</title>
+  <desc id="d">Automation and Control Engineering student. Test automation, embedded systems, computer vision.</desc>
+  <defs>
+    <radialGradient id="glowA" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#3E9E58" stop-opacity=".22"/>
+      <stop offset=".6" stop-color="#3E9E58" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="1" r="1">
+      <stop offset="0" stop-color="#1E5631" stop-opacity=".10"/>
+      <stop offset=".6" stop-color="#1E5631" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#2A3D31"/>
+    </pattern>
+    <clipPath id="card"><rect x="8" y="8" width="1184" height="284" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .name { font: 800 46px "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #E8F1EA; letter-spacing: -1px; }
+    .role { font: 600 21px "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #7FD493; }
+    .eyebrow { font: 700 13px "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #7FD493; letter-spacing: 2.2px; }
+    .meta { font: 400 16px "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #9FB3A5; }
+    .trace { fill: none; stroke: #3E9E58; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: .55; }
+    .pad { fill: #0E1712; stroke: #3E9E58; stroke-width: 2; }
+    .pulse { fill: none; stroke: #7FD493; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 26 600; animation: run 5s linear infinite; }
+    .chip { fill: #1E5631; stroke: #3E9E58; stroke-width: 2; }
+    .pin { fill: #3E9E58; }
+    @keyframes run { from { stroke-dashoffset: 626; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
+  </style>
+
+  <rect x="8" y="8" width="1184" height="284" rx="22" fill="#0E1712"/>
+  <g clip-path="url(#card)">
+    <rect x="600" y="0" width="600" height="300" fill="url(#grid)" opacity=".7"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#glowA)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#glowB)"/>
+
+    <!-- PCB traces leading into an MCU -->
+    <g transform="translate(0 0)">
+      <path class="trace" d="M640 60 H760 L790 90 H880"/>
+      <path class="trace" d="M640 150 H880"/>
+      <path class="trace" d="M640 240 H760 L790 210 H880"/>
+      <path class="trace" d="M1000 90 H1060 L1090 60 H1192"/>
+      <path class="trace" d="M1000 150 H1192"/>
+      <path class="trace" d="M1000 210 H1060 L1090 240 H1192"/>
+      <path class="pulse" d="M640 60 H760 L790 90 H880"/>
+      <path class="pulse" style="animation-delay:-1.7s" d="M1000 150 H1192"/>
+      <path class="pulse" style="animation-delay:-3.3s" d="M640 240 H760 L790 210 H880"/>
+      <circle class="pad" cx="640" cy="60" r="6"/>
+      <circle class="pad" cx="640" cy="150" r="6"/>
+      <circle class="pad" cx="640" cy="240" r="6"/>
+
+      <g>
+        <rect class="pin" x="872" y="84" width="16" height="12" rx="2"/>
+        <rect class="pin" x="872" y="144" width="16" height="12" rx="2"/>
+        <rect class="pin" x="872" y="204" width="16" height="12" rx="2"/>
+        <rect class="pin" x="992" y="84" width="16" height="12" rx="2"/>
+        <rect class="pin" x="992" y="144" width="16" height="12" rx="2"/>
+        <rect class="pin" x="992" y="204" width="16" height="12" rx="2"/>
+        <rect class="chip" x="884" y="64" width="112" height="172" rx="14"/>
+        <circle cx="904" cy="84" r="5" fill="#7FD493"/>
+        <text x="940" y="156" text-anchor="middle" style="font:700 15px Consolas, 'Cascadia Mono', monospace; fill:#D8E6DC; letter-spacing:1px">MCU</text>
+      </g>
+    </g>
+  </g>
+  <rect x="8.5" y="8.5" width="1183" height="283" rx="21.5" fill="none" stroke="#24352A"/>
+
+  <line x1="56" y1="78" x2="92" y2="78" stroke="#7FD493" stroke-width="2"/>
+  <text class="eyebrow" x="104" y="83">AUTOMATION &amp; CONTROL ENGINEERING</text>
+  <text class="name" x="54" y="146">Huynh Tran Phuc Hung</text>
+  <text class="role" x="56" y="186">Test automation · Embedded systems · Computer vision</text>
+  <text class="meta" x="56" y="236">HCMUTE, class of 2027 · Ex-intern at MACOM Technology Solutions</text>
+</svg>

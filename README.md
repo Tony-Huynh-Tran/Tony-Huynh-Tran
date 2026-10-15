@@ -9,10 +9,8 @@
   <img alt="Location: Ho Chi Minh City, Vietnam" src="https://img.shields.io/badge/Based_in-Ho_Chi_Minh_City-3E9E58?style=flat-square&labelColor=163F24">
 </p>
 
-I'm an Automation and Control Engineering student at HCMUTE. I like building the whole loop of a machine:
-the board, the firmware, the vision that tells it where to go, and the software that an operator actually uses.
-From June to October 2026 I was a test engineering intern at **MACOM Technology Solutions**, working on
-test systems and equipment for semiconductor manufacturing.
+Automation and Control Engineering student at HCMUTE.
+Former test engineering intern at **MACOM Technology Solutions**.
 
 ## Experience
 
